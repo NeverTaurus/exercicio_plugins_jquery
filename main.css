@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: #ffd700;
+    padding: 15px;
+}
+h1{
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+section{
+    padding: 48px 0;
+    background-color:antiquewhite;
+}
+
+form{
+    margin: 0 auto;
+}
+section h2, h3{
+    margin: 0 auto;
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+
+.cadastro{
+    margin-bottom: 15px;
+}
+.cadastro label{
+    font-weight: bold;
+    display: block;
+}
+
+.cadastro input{
+    padding: 8px;
+    width: 100%;
+}
+
+form{
+    max-width: 360px;
+}
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin:0 auto ;
+}
+button{
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: #ffd700;
+    border:none;
+    width: 100%;
+    padding: 6px;
+    border-radius: 7px;
+}
+
